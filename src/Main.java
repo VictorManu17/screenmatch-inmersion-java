@@ -32,13 +32,11 @@ public class Main {
 
         int i = 0;
         while (i < 3){
-
             Scanner teclado = new Scanner(System.in).useLocale(Locale.US);
             System.out.println("Ingrese la nota que le darias a Matrix: ");
             double notaMatrix = teclado.nextDouble();
             mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix;
             i++;
-
         }
 
         System.out.println("La media de la pelicula " +
